@@ -1,0 +1,115 @@
+body {
+    background-color: #fbfbfb;
+}
+
+.blur {
+    background-image: url('../images/backg.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    filter        : blur(5px);
+    -moz-filter   : blur(5px);
+    -webkit-filter: blur(5px);
+    -o-filter     : blur(5px);
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    display: block;
+    position: absolute;
+    z-index: -9;
+}
+
+input, select, textarea {
+    background-color: #f7f7f7 !important;
+    border: 1px solid #d8d8d8 !important;
+    box-shadow: none !important;
+    border-radius: 7px !important;
+}
+
+button, button:hover, button:focus, button:active {
+    background-color: #1b4e73 !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.appname {
+    color: #009dfb;
+    font-family: unset;
+    font-size: 18px;
+}
+
+.loginDiv {
+    max-width: 25rem;
+    margin-top: 2rem;
+}
+
+.loginForm {
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.w-fill {
+    width: -webkit-fill-available;
+}
+
+.headerLinks {
+    color: black;
+}
+
+.sidebarDiv {
+    background-color: #efefef;
+}
+
+.theAdminPersons {
+    background-color: #e0c0c0;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.thePersonColors {
+    color: #885e5e;
+}
+
+.theAvatar {
+    border-radius: 0px;
+}
+
+.theHeaderClasses {
+    background-color: #5a5a5a;
+    color: white;
+}
+
+.theClassesRecord {
+    background-color: #efefef;
+    color: black;
+}
+
+.thePresenceDiv {
+    background-color: #ffebeb;
+}
