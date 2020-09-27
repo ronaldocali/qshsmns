@@ -2,6 +2,10 @@
 
 namespace App;
 
+/**
+* comment to test git 2
+*/
+
 use Illuminate\Database\Eloquent\Model;
 
 class Presence extends Model
