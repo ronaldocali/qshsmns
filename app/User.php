@@ -1,5 +1,7 @@
 <?php
-
+/**
+* comment to test git
+*/
 namespace App;
 
 use Illuminate\Notifications\Notifiable;
